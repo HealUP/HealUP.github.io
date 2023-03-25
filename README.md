@@ -1,17 +1,58 @@
 # 校园招聘经验交流平台
 
-Spring Boot是在Spring框架基础上构建的一个快速应用开发框架，它封装了Spring框架千篇一律的配置，使得应用的开发变得更加简单。
+📌**项目简介**
+---
+> 校园招聘经验交流平台是一套前后端不分离的开源社区系统，基于目前主流 Java Web 技术栈（SpringBoot + MyBatis + MySQL + Redis + Kafka + Elasticsearch + Spring Security），并提供详细的开发文档和配套教程。包含帖子、评论、私信、系统通知、点赞、关注、搜索、用户设置、数据统计等模块。
 
-Spring MVC是一种基于Java的Web框架，它可以帮助开发人员构建Web应用程序，提供了一套MVC（Model-View-Controller）架构，以及处理Web请求和响应的机制。
 
-Spring Boot和Spring MVC是基于Spring框架的，可以一起使用，但是它们的目的和功能略有不同。Spring Boot主要用于简化应用程序的开发和部署，而Spring MVC主要用于构建Web应用程序。
+## 🔍核心技术栈
 
-**开发工具：**
+**后端**：
 
-<img src="https://gitee.com/year-one/typro-bed/raw/master/img/202303251440730.png" alt="image-20221222090655370" style="zoom:67%;" />
+- Spring
+- Spring Boot 2.1.5 RELEASE
+- Spring MVC
+- ORM：MyBatis
+- 数据库：MySQL 5.7
+- 分布式缓存：Redis
+- 本地缓存：Caffeine
+- 消息队列：Kafka 2.13-2.7.0
+- 搜索引擎：Elasticsearch 6.4.3
+- 安全：Spring Security
+- 邮件任务：Spring Mail
+- 分布式定时任务：Spring Quartz
+- 日志：SLF4J（日志接口） + Logback（日志实现）
 
-## 2. 开发环境搭建
+**前端**：
 
-- Maven 3.8.1（3.6.1）
+- Thymeleaf
+- Bootstrap 4.x
+- Jquery
+- Ajax
 
-> 命令行可以操作maven，利用命令进行构建项目，编译项目
+## 💻 开发环境
+
+- 操作系统：Windows 11
+- 构建工具：Apache Maven
+- 集成开发工具：Intellij IDEA
+- 应用服务器：Apache Tomcat
+- 接口测试工具：Postman
+- 压力测试工具：Apache JMeter
+- 版本控制工具：Git
+- Java 版本：8
+
+## 🧷系统功能逻辑
+> 为了便于大家理解，画了每个功能的逻辑图
+- **注册**
+
+![image](https://user-images.githubusercontent.com/72082506/227728468-01e3017e-526a-4aae-a6fa-0879361e80ca.png)
+
+- **登录、登出**
+
+
+- 
+
+
+
+## ✔️面试题总结
+
